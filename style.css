@@ -74,3 +74,45 @@ img {
 
 
 /* RESPONSIVE */
+@media screen and (max-width: 768px) {
+
+  img {
+    height: 100px;
+  }
+
+  /* LEZIONI */
+  .row {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 40%;
+    margin: 5%;
+  }
+
+  /* BLOCCO STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 30%;
+    margin: 1%;
+  }
+
+  #steps .row>.central{
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  /* BLOCCO PERCHE */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 50px;
+  }
+
+  #why .row>.third {
+    margin-bottom: 20px;
+  }
+}
